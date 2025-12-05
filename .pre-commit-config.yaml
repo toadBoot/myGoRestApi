@@ -1,0 +1,8 @@
+repos:
+-   repo: https://github.com/dnephin/pre-commit-golang
+    rev: v0.5.1
+    hooks:
+    -   id: go-fmt        # Авто-форматирование (Code Style)
+    -   id: go-vet        # Поиск подозрительных конструкций
+    -   id: go-unit-tests # Запуск тестов
+    -   id: golangci-lint # Линтер
